@@ -4,7 +4,7 @@ import { Title, Content, PublishButton } from "./";
 const Article = (props) => {
   const [isPublished, setIsPublished] = useState(false)
   const publishArticle = () => {
-    setIsPublished(!isPublished)
+    setIsPublished(prevState => !prevState)
   }
   console.log(isPublished)
   return (
