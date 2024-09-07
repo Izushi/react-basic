@@ -18,7 +18,7 @@ const BadCounter = () => {
 
   return (
     <div>
-      <p>Count: {count}</p>
+      <p>Bad count with useState: {count}</p>
       <button onClick={countUp}>Up</button>
       <button onClick={countDown}>Down</button>
     </div>

@@ -17,7 +17,7 @@ const Counter = () => {
 
   return (
     <div>
-      <p>Count: {count}</p>
+      <p>right count with prevState: {count}</p>
       <button onClick={countUp}>Up</button>
       <button onClick={countDown}>Down</button>
     </div>
